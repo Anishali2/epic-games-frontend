@@ -1,0 +1,208 @@
+body {
+    margin: 0px !important;
+    background-color: #121212;
+    color: white;        
+    font-family:sans-serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2A2A2A;
+    font-family: sans-serif,arial;
+    font-size: x-small;
+}
+  ul li:nth-child(2) {
+      border-bottom: 4px solid blue;
+      color: gray!important;
+}
+ .lang {
+    width: 20px;
+    height: 23px;
+    background-repeat: no-repeat;
+    /* padding: 8px 5px 4px 14px; */
+}
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 16px;
+    text-decoration: none;
+}
+  .dropbtn {
+    background-color: #2a2a2a;
+    color: white;
+    font-size: 16px;
+    border: none;
+    margin: 6px;
+}
+  li i {
+      padding: 10px;
+}
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    float: right;
+}
+  .dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #2a2a2a;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin: 51px 0 0 -60px;
+    text-align: center;
+}
+  .user {
+    color: white;
+    font-size: small;
+    margin: 7px;
+    padding: 11px;
+}
+  .dropdown-content a {
+    color: gray;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+span a {
+    margin: 20px;
+    color: gray;
+    text-decoration: none;
+}
+.input-search {
+    background-color: rgb(0 0 0 / 0%);
+    border: none;
+    margin-left: 11px;
+    color: white;
+    width: 140px;
+}
+.valdiv {
+    background-color: #202020;
+    width: 132px;
+    height: 17px;
+    padding: 10px 16px 13px 16px;
+    margin: 20px;
+    border-radius: 25px;
+    display: flex;
+}
+  input:focus {outline: none;}
+i{
+    color: gray;
+    font-size: 16px;
+}
+.textimage1, .textimage2, .textimage3 {
+    width: 59%;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+abbr {text-decoration:none;}
+
+  @keyframes hoverr {
+      from{
+        border-bottom: 0.1px solid blue;
+
+    }
+      to {border-bottom: 4px solid blue;}
+}
+ul li img {
+    width: 30px;
+    height: 37px;
+    background-repeat: no-repeat;
+    padding: 8px 5px 4px 14px;
+}
+.visibilityDiv {
+    animation: showBlock 3s ease-in-out 5s alternate-reverse infinite;
+    background-image: url(img.png);
+    background-repeat: no-repeat;
+    width: 342px;
+    height: 147px;
+    border: 1px solid black;
+    visibility: hidden;
+}
+ @keyframes showBlock {
+    to { visibility: visible; }
+}
+#outer-div {
+    width: 100%;
+    text-align: center;
+}
+  #inner-div {
+    display: inline-block;
+    margin: 0 auto;
+}
+.free-games-container {
+    background-color: #2A2A2A;
+    height: auto;
+    padding: 20px;
+}
+button {
+    float: right;
+    color: white;
+    margin: -32px 8px 0px 0px;
+    width: 94px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 2px;
+    padding: 4px;
+    font-size: 10px;
+    transition: all 0.4s ease-in-out;
+}
+button:hover {
+    transition: 0.4s;  
+    background-color: rgba(255, 255, 255, 0.336);
+}
+.free-games img {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+}
+.free-games img:hover {
+    transition: 0.2s;
+    filter: brightness(140%);
+}
+.free-games p {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 10px 0 2px 0;
+    font-size: 15px;
+    font-family: system-ui;
+    text-align: left;
+    margin-left: 10px;
+}
+h6{
+    margin: -19px 0 0 10px;
+    width: 196px;
+    padding:10px 3px 3px 3px;
+    border-radius: 2px;
+}
+.down a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+.bg {background: blue;}
+.bg-blk {background: black;}
+.nevbar-top li {display: inline;}
+.nevbar-top {text-align: center;}
+.active {display: grid;}
+.dropdown-content a:hover {color: white;}
+.dropdown:hover .dropdown-content {display: block;}
+.free-games-container span {text-align: left;}
+.free-games-box {display: flex;}
+li a:hover {animation: hoverr 1s  ;}
+span a:hover {color:white;}
+.gift {font-size: x-large;}
+#gift {font-size: 25px;float: left;}
+.down{background: #157DF7;padding: 19px;}
+li {float: left;}
+
+
